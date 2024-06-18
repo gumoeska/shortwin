@@ -1,4 +1,5 @@
 import Header from "@/components/header/header";
+import InputButton from "@/components/input-button/input-button";
 import Logo from "@/components/logo/logo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -12,12 +13,15 @@ export default function Home() {
           <div className="py-5 mb-6">
             <Logo />
           </div>
-          <div className="py-2 w-1/2">
+          {/* <div className="py-2 w-1/2">
             <Input />
+          </div> */}
+          <div className="py-2 w-1/2">
+            <InputButton />
           </div>
           <div className="py-2 w-1/2">
             <Button variant={"outline"} className="min-w-full">
-              Encurtar
+              Shorten
             </Button>
           </div>
         </div>
